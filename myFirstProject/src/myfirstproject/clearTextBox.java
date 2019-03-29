@@ -25,6 +25,7 @@ public class clearTextBox {
 	private static String sFolderPath = "D:\\Users\\sanjaykumar_g\\eclipse\\eclipseProjects";
 	private static String sFileName = "MyEcel.xls";
 	private static String sSheetName = "Sheet1";
+	
 	@Test
 	public static void clearTextBox() throws Exception 
 	{
