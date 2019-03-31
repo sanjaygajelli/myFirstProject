@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6" started-at="2019-03-26T13:05:13Z" finished-at="2019-03-26T13:05:13Z">
+  <suite name="Default suite" duration-ms="15366" started-at="2019-03-31T17:03:28Z" finished-at="2019-03-31T17:03:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6" started-at="2019-03-26T13:05:13Z" finished-at="2019-03-26T13:05:13Z">
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    <test name="Default test" duration-ms="15366" started-at="2019-03-31T17:03:28Z" finished-at="2019-03-31T17:03:43Z">
+      <class name="myfirstproject.clearTextBox">
+        <test-method status="PASS" signature="clearTextBox()[pri:0, instance:myfirstproject.clearTextBox@7cd62f43]" name="clearTextBox" duration-ms="15285" started-at="2019-03-31T17:03:28Z" finished-at="2019-03-31T17:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearTextBox -->
+      </class> <!-- myfirstproject.clearTextBox -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
