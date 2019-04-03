@@ -1,17 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15366" started-at="2019-03-31T17:03:28Z" finished-at="2019-03-31T17:03:43Z">
+  <suite name="Suite" duration-ms="22653" started-at="2019-04-03T11:47:15Z" finished-at="2019-04-03T11:47:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15366" started-at="2019-03-31T17:03:28Z" finished-at="2019-03-31T17:03:43Z">
-      <class name="myfirstproject.clearTextBox">
-        <test-method status="PASS" signature="clearTextBox()[pri:0, instance:myfirstproject.clearTextBox@7cd62f43]" name="clearTextBox" duration-ms="15285" started-at="2019-03-31T17:03:28Z" finished-at="2019-03-31T17:03:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearTextBox -->
-      </class> <!-- myfirstproject.clearTextBox -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test name="Test" duration-ms="22653" started-at="2019-04-03T11:47:15Z" finished-at="2019-04-03T11:47:38Z">
+      <class name="myfirstproject.dataProvider">
+        <test-method status="PASS" signature="BeforeTest()" name="BeforeTest" is-config="true" duration-ms="9491" started-at="2019-04-03T11:47:15Z" finished-at="2019-04-03T11:47:25Z">
+        </test-method>
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)" name="login" duration-ms="2502" started-at="2019-04-03T11:47:26Z" finished-at="2019-04-03T11:47:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[one]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passone]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)" name="login" duration-ms="2334" started-at="2019-04-03T11:47:29Z" finished-at="2019-04-03T11:47:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passtwo]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)" name="login" duration-ms="2406" started-at="2019-04-03T11:47:31Z" finished-at="2019-04-03T11:47:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passthree]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)" name="login" duration-ms="2288" started-at="2019-04-03T11:47:33Z" finished-at="2019-04-03T11:47:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passfounr]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="AfterTest()" name="AfterTest" is-config="true" duration-ms="2171" started-at="2019-04-03T11:47:36Z" finished-at="2019-04-03T11:47:38Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
 </testng-results>
