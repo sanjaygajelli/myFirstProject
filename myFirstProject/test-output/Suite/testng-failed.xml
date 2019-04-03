@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test name="Test(failed)">
+  <test name="Test(failed)" preserve-order="false">
     <classes>
-      <class name="myfirstproject.myFirstClass">
+      <class name="myfirstproject.dataProvider">
         <methods>
-          <include name="myFirstMethod"/>
+          <include name="BeforeTest"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- myfirstproject.myFirstClass -->
+      </class>
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test>
+</suite>
